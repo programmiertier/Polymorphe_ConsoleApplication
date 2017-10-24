@@ -47,6 +47,17 @@ namespace Polymorphe_ConsoleApplication
         {
             return _gekapselteGanzzahl;
         }
-        
+
+        public virtual void normalVerhalten()
+        {
+            WriteLine("Ich bin voll super");
+            abnormesVerhalten();
+        }
+
+        private void abnormesVerhalten()
+        {
+            WriteLine("ja, aber ich weiß nicht...");
+        }
+
     }
 }

@@ -26,5 +26,10 @@ namespace Polymorphe_ConsoleApplication
         {
 
         }
+
+        public void normalVerhalten()
+        {
+            WriteLine("Ich bin super");
+        }
     }
 }
